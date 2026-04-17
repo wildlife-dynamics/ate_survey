@@ -956,7 +956,7 @@ rename_survey_columns = (
         unpack_depth=1,
     )
     .partial(
-        raise_if_not_found=True,
+        raise_if_not_found=False,
         df=normalize_event_details,
         drop_columns=[
             "event_category",

@@ -270,7 +270,7 @@ workflow:
     id: rename_survey_columns
     task: map_columns
     partial:
-      raise_if_not_found: true
+      raise_if_not_found: false
       df: ${{ workflow.normalize_event_details.return }}
       drop_columns:
         - event_category
