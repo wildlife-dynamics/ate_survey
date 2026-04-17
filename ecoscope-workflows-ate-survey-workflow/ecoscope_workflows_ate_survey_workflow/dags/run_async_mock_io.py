@@ -832,7 +832,7 @@ def main(params: Params):
             )
             .set_executor("lithops"),
             partial={
-                "raise_if_not_found": True,
+                "raise_if_not_found": False,
                 "df": DependsOn("normalize_event_details"),
                 "drop_columns": [
                     "event_category",
