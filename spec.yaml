@@ -379,10 +379,10 @@ workflow:
       df: ${{ workflow.rename_survey_columns.return }}
       columns:
         - Participant age
-        - Number of cows
+        #- Number of cows
         - Household size
         - Land owned (acres)
-        - Number of shoats
+        #- Number of shoats
         - Agricultural land (acres)
         - Number of sheep or goats
         - Number of dogs
@@ -457,10 +457,10 @@ workflow:
       categorical_fill_value: Unspecified
       numeric_columns: 
         - Participant age
-        - Number of cows
+        #- Number of cows
         - Household size
         - Land owned (acres)
-        - Number of shoats
+        #- Number of shoats
         - Agricultural land (acres)
         - Number of sheep or goats
         - Number of dogs
@@ -630,9 +630,9 @@ workflow:
       df: ${{ workflow.map_col_surveys.return }}
       columns: 
         - Participant age
-        - Number of cows
+        #- Number of cows
         - Household size
-        - Number of shoats
+        #- Number of shoats
         - Agricultural land (acres)
         - Number of sheep or goats
         - Number of dogs
@@ -672,9 +672,9 @@ workflow:
       inplace: true
       columns:
         - Participant age
-        - Number of cows
+        #- Number of cows
         - Household size
-        - Number of shoats
+        #- Number of shoats
         - Land owned (acres)
         - Agricultural land (acres)
         - Number of dogs

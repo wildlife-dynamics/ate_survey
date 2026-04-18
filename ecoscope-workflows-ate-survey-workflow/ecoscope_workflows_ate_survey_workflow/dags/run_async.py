@@ -938,10 +938,8 @@ def main(params: Params):
                 "df": DependsOn("rename_survey_columns"),
                 "columns": [
                     "Participant age",
-                    "Number of cows",
                     "Household size",
                     "Land owned (acres)",
-                    "Number of shoats",
                     "Agricultural land (acres)",
                     "Number of sheep or goats",
                     "Number of dogs",
@@ -1042,10 +1040,8 @@ def main(params: Params):
                 "categorical_fill_value": "Unspecified",
                 "numeric_columns": [
                     "Participant age",
-                    "Number of cows",
                     "Household size",
                     "Land owned (acres)",
-                    "Number of shoats",
                     "Agricultural land (acres)",
                     "Number of sheep or goats",
                     "Number of dogs",
@@ -1284,9 +1280,7 @@ def main(params: Params):
                 "df": DependsOn("map_col_surveys"),
                 "columns": [
                     "Participant age",
-                    "Number of cows",
                     "Household size",
-                    "Number of shoats",
                     "Agricultural land (acres)",
                     "Number of sheep or goats",
                     "Number of dogs",
@@ -1365,9 +1359,7 @@ def main(params: Params):
                 "inplace": True,
                 "columns": [
                     "Participant age",
-                    "Number of cows",
                     "Household size",
-                    "Number of shoats",
                     "Land owned (acres)",
                     "Agricultural land (acres)",
                     "Number of dogs",

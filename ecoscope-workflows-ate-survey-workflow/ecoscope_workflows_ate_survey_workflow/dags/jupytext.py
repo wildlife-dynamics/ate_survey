@@ -1091,10 +1091,8 @@ convert_obj_to_num = (
         df=rename_survey_columns,
         columns=[
             "Participant age",
-            "Number of cows",
             "Household size",
             "Land owned (acres)",
-            "Number of shoats",
             "Agricultural land (acres)",
             "Number of sheep or goats",
             "Number of dogs",
@@ -1219,10 +1217,8 @@ fill_values = (
         categorical_fill_value="Unspecified",
         numeric_columns=[
             "Participant age",
-            "Number of cows",
             "Household size",
             "Land owned (acres)",
-            "Number of shoats",
             "Agricultural land (acres)",
             "Number of sheep or goats",
             "Number of dogs",
@@ -1517,9 +1513,7 @@ convt_to_int = (
         df=map_col_surveys,
         columns=[
             "Participant age",
-            "Number of cows",
             "Household size",
-            "Number of shoats",
             "Agricultural land (acres)",
             "Number of sheep or goats",
             "Number of dogs",
@@ -1634,9 +1628,7 @@ bin_survey_cols = (
         inplace=True,
         columns=[
             "Participant age",
-            "Number of cows",
             "Household size",
-            "Number of shoats",
             "Land owned (acres)",
             "Agricultural land (acres)",
             "Number of dogs",
